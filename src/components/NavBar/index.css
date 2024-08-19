@@ -1,0 +1,61 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-container {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #ffffff33;
+  margin: 0px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.logo-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.current-score {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+  margin-right: 10px;
+}
+.top-score {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    margin-left: 30px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .logo-name {
+    font-size: 30px;
+  }
+  .current-score {
+    font-size: 30px;
+    margin-right: 30px;
+  }
+  .top-score {
+    font-size: 30px;
+    margin-right: 30px;
+  }
+}
